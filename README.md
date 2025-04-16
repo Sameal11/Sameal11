@@ -1,5 +1,5 @@
 
-# Hello, I'm Sameal11! 👋
+# Hello, I'm Samael11! 👋
 
 Welcome to my GitHub profile! I'm a passionate developer with a love for coding and creating innovative solutions. Here's a little bit about me:
 
