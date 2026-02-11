@@ -5,8 +5,8 @@ import ScrollReveal from "./components/ScrollReveal"
 import ElectricBorder from "./components/ElectricBorder"
 import TiltedCard from './components/TiltedCard';
 import ecommerce from "../src/assets/images/ecommerce.jpg";
-import NoteLock from "../src/assets/images/notelock.jpg";
-import Portfolio from "../src/assets/images/portfolio.jpeg";
+import NoteLock from "../src/assets/images/NoteLock.jpg";
+import Portfolio from "../src/assets/images/Portfolio.jpeg";
 import ClickGame from "./components/clickGame";
 import VisitorCounter from "./components/visitorCounter";
 
