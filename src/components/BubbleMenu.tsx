@@ -26,6 +26,7 @@ export type BubbleMenuProps = {
   animationEase?: string;
   animationDuration?: number;
   staggerDelay?: number;
+  closeOnItemClick?: boolean;
 };
 
 const DEFAULT_ITEMS: MenuItem[] = [
@@ -78,7 +79,8 @@ export default function BubbleMenu({
   items,
   animationEase = 'back.out(1.5)',
   animationDuration = 0.5,
-  staggerDelay = 0.12
+  staggerDelay = 0.12,
+  closeOnItemClick = true
 }: BubbleMenuProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
@@ -355,6 +357,12 @@ export default function BubbleMenu({
                   role="menuitem"
                   href={item.href}
                   aria-label={item.ariaLabel || item.label}
+                  onClick={() => {
+                    if (closeOnItemClick) {
+                      setIsMenuOpen(false);
+                      onMenuClick?.(false);
+                    }
+                  }}
                   className={[
                     'pill-link',
                     'w-full',
