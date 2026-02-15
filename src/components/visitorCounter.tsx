@@ -11,16 +11,20 @@ export default function VisitorCounter() {
   }, []);
 
   return (
-    <div className="p-6 bg-black/50 rounded-xl border border-gray-700 text-center">
-      <h3 className="text-xl font-semibold mb-3">Page Visits</h3>
+    <div className="h-full flex flex-col justify-between p-6 rounded-2xl border border-white/10 bg-black hover:border-white/20 transition-colors">
+      <div className="flex justify-between items-start">
+        <span className="text-xs font-mono text-gray-500 tracking-wider">VISITORS</span>
+        <span className="text-[10px] px-2 py-0.5 rounded-full border border-white/10 text-gray-400">Total</span>
+      </div>
 
-      <p className="text-4xl font-bold text-green-400">
-        {count ?? "Loading..."}
-      </p>
-
-      <p className="text-gray-400 mt-2 text-sm">
-        Total visitors since launch
-      </p>
+      <div className="mt-4">
+        <p className="text-4xl font-bold text-white tracking-tighter font-mono">
+          {count?.toLocaleString() ?? "-"}
+        </p>
+        <p className="text-xs text-gray-500 mt-1 font-mono">
+          Unique views
+        </p>
+      </div>
     </div>
   );
 }

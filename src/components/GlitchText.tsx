@@ -34,10 +34,10 @@ export default function GlitchText({
 
   const pseudoClasses = !enableOnHover
     ? "after:content-[attr(data-text)] after:absolute after:top-0 after:left-[6px] after:whitespace-nowrap after:text-white after:bg-transparent after:[text-shadow:var(--after-shadow)] after:animate-glitch-after " +
-      "before:content-[attr(data-text)] before:absolute before:top-0 before:left-[-6px] before:whitespace-nowrap before:text-white before:bg-transparent before:[text-shadow:var(--before-shadow)] before:animate-glitch-before"
+    "before:content-[attr(data-text)] before:absolute before:top-0 before:left-[-6px] before:whitespace-nowrap before:text-white before:bg-transparent before:[text-shadow:var(--before-shadow)] before:animate-glitch-before"
     : "after:content-[''] after:absolute after:top-0 after:left-[6px] after:opacity-0 before:content-[''] before:absolute before:top-0 before:left-[-6px] before:opacity-0 " +
-      "hover:after:content-[attr(data-text)] hover:after:opacity-100 hover:after:[text-shadow:var(--after-shadow)] hover:after:animate-glitch-after " +
-      "hover:before:content-[attr(data-text)] hover:before:opacity-100 hover:before:[text-shadow:var(--before-shadow)] hover:before:animate-glitch-before"
+    "hover:after:content-[attr(data-text)] hover:after:opacity-100 hover:after:[text-shadow:var(--after-shadow)] hover:after:animate-glitch-after " +
+    "hover:before:content-[attr(data-text)] hover:before:opacity-100 hover:before:[text-shadow:var(--before-shadow)] hover:before:animate-glitch-before"
 
   return (
     <span
