@@ -1,50 +1,68 @@
-# Hello, I'm Sameal11! 👋
+# Hi, I'm Aryan Raj Arya 👋
 
-Welcome to my GitHub profile! I'm a passionate developer who enjoys building creative and practical solutions through code.
+**B.Tech CSE (Cyber Security) student at SRM IST | Cloud • DevSecOps • Full-Stack Development**
 
----
-
-## 🚀 About Me
-
-- 🔭 Currently working on **Product Recommendation Chatbot**
-- 🌱 Learning **MERN Stack & Cybersecurity Tools**
-- 👯 Open to collaborating on **open-source and learning-focused projects**
-- 💬 Ask me about **Web Development, Security Tools, and Problem Solving**
-- 📫 How to reach me: **aryanrajarya11@example.com**
-- 😄 Pronouns: **He/Him**
-- ⚡ Fun fact: *"There are a lot of bugs in me, but maybe they are features!"*
+I build secure, automated systems, from IoT-integrated web platforms to CI/CD pipelines that scan code for vulnerabilities before it ships.
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🔭 What I'm Up To
 
-**Programming Languages:**
-- C, C++, Python, Java, JavaScript
+- 🔐 Building security-focused DevOps tooling (automated scanning, risk scoring, infrastructure as code)
+- ☁️ Deepening my cloud skills on AWS and Google Cloud
+- 🤖 Working on a **Product Recommendation Chatbot**
+- 🎯 Looking for **Cyber Security / Cloud / Software Engineering internships**
 
-**Frameworks & Libraries:**
-- React, Node.js, Express
+---
 
-**Tools & Platforms:**
-- Git, GitHub, Docker, VS Code
+## 🚀 Featured Projects
 
-**Databases:**
-- MySQL, MongoDB, Firebase
+### SecureLab: Automated Lab Attendance & Monitoring Platform
+RFID-based student authentication, live session tracking, application-usage logging, and idle-time detection, with a desktop client and a web-based faculty portal.
+`Node.js` `Express.js` `MongoDB` `Redis` `JWT` `React.js` `React Native` `Electron.js` `ESP32` `RFID`
+
+### Automated DevOps Infrastructure with Live CI/CD Monitoring
+A security-scanning service that ingests repos from Jenkins and GitHub Actions pipelines, runs Bandit, Semgrep, and OWASP ZAP, computes a risk score per build, and generates pass/fail reports. Containerized with Docker and provisioned with Terraform and Ansible.
+`Python` `Flask` `PostgreSQL` `Jenkins` `GitHub Actions` `Docker` `Terraform` `Ansible`
+
+---
+
+## 🛠️ Tech Stack
+
+| Area | Tools |
+|------|-------|
+| **Languages** | Python, Java, C++, JavaScript, TypeScript, HTML/CSS |
+| **Web & Frameworks** | React.js, React Native, Node.js, Express.js, Flask |
+| **Cloud & DevOps** | AWS (EC2, S3), Google Cloud, Docker, Terraform, Ansible, Jenkins, GitHub Actions |
+| **Databases** | MySQL, PostgreSQL, MongoDB, Redis, Firebase |
+| **Security** | Burp Suite, Wireshark, Nmap, Metasploit, OWASP ZAP, Bandit, Semgrep, Cryptography |
+| **Tools** | Linux, Git, GitHub, VS Code, VirtualBox |
+
+---
+
+## 🏅 Certifications
+
+- AWS Certified Solutions Architect
+- AWS Certified Developer – Associate
+- AWS Certified Cloud Practitioner
+- Google Cloud Engineering Certificate
 
 ---
 
 ## 📈 GitHub Stats
 
-![Sameal11's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sameal11&show_icons=true&theme=radical)
+![Sameal11's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sameal11&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sameal11&layout=compact&hide_border=true)
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Let's Connect
 
-- **LinkedIn:** https://www.linkedin.com/in/your-linkedin-profile 
-- **Twitter:** https://twitter.com/your-twitter-handle  
-- **Email:** aryanrajarya11@example.com  
+- 💼 LinkedIn: [add your real LinkedIn URL here]
+- 📫 Email: aryanrajarya11@gmail.com
+
+💬 Ask me about **cloud security, DevSecOps, web development, or CI/CD automation**.
 
 ---
 
-Thanks for visiting my profile!  
-Feel free to connect, collaborate, or just say hi 😊
+*Open to collaborating on open-source and learning-focused projects.*
